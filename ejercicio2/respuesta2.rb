@@ -1,0 +1,1 @@
+#Utilizando *.map* crear una arreglo con los nombres en minúscula.
