@@ -1,12 +1,10 @@
-#Utilizando *.map* y *.gsub* eliminar las vocales de todos los nombres.
+#UUtilizando *.map* crear un arreglo único con la cantidad de letras que tiene cada nombre.
+
 
 nombres = ["Violeta", "Andino", "Clemente", "Javiera", "Paula", "Pia", "Ray"]
 
-puts nombres.map { |e|  
-  e.gsub(/[aeiou]/, '')
+b = nombres.map { |e|  
+  e.length
 }
 
-
-#nombres.each do |k,v|
-#  nombres[k] = v.gsub(/[a|e|i|o|u]/, '')
-#end
+print b
